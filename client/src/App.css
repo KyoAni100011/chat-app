@@ -1,0 +1,74 @@
+.custom-input {
+  content: "Upload image";
+  color: black;
+  display: inline-block;
+  background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+}
+.custom-input:hover {
+  border-color: black;
+}
+.custom-input:active {
+  outline: 0;
+}
+.custom-input:active {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+.messages-container {
+  height: 683px;
+}
+
+.body-chat {
+  height: 625px;
+}
+/* width */
+
+.body-chat::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.body-chat::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.body-chat::-webkit-scrollbar-thumb {
+  background: #e5e8e8;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+.body-chat::-webkit-scrollbar-thumb:hover {
+  background: #eaeded;
+}
+
+.messages-container::-webkit-scrollbar {
+  width: 5px;
+  display: none;
+}
+
+/* Track */
+.messages-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.messages-container::-webkit-scrollbar-thumb {
+  background: #e5e8e8;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+.messages-container::-webkit-scrollbar-thumb:hover {
+  background: #eaeded;
+}
